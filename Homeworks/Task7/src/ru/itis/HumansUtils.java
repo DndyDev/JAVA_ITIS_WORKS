@@ -22,13 +22,15 @@ public class HumansUtils {
     }
     public static void HumanMaxAge(int[]resultAge){
         int MaxAge = -1;
+        int k = 0;
 
         for (int i = 0;i < resultAge.length; i++){
             if (resultAge[i] > MaxAge){
                     MaxAge = resultAge[i];
+                    k = i;
             }
         }
         System.out.println();
-        System.out.println(MaxAge);
+        System.out.println("Human"+  k + "  " +"MaxAge"+ "=" + MaxAge);
     }
 }
