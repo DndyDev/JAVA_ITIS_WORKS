@@ -24,11 +24,13 @@ public class Main {
     }
     public static void MinMaxReversMatrix( int [][] matrix){
         int min,max;
-        int indexMin = 0;
-        int indexMax = 0;
+        int indexMin;
+        int indexMax;
         for (int i = 0;i < matrix.length;i++){
             min = matrix[i][0];
             max = matrix [i][0];
+            indexMin = 0;
+            indexMax = 0;
             for (int j = 0; j < matrix[0].length;j++){
                 if (matrix[i][j] < min){
                     min = matrix[i][j];
