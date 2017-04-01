@@ -31,6 +31,6 @@ public class HumansUtils {
             }
         }
         System.out.println();
-        System.out.println("Human"+  k + "  " +"MaxAge"+ "=" + MaxAge);
+        System.out.println("Human"+  k + "  " +"MaxAge"+ " = " + MaxAge);
     }
 }

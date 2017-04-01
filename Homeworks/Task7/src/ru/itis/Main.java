@@ -20,7 +20,7 @@ public class Main {
         }
 
         for (int i = 0; i < countAges.length; i++) {
-            System.out.println(countAges[i]);
+            System.out.println("Human" + i + " " + countAges[i]);
         }
          HumansUtils.countAges(humans);
 
